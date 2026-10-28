@@ -3,24 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Transient Study Audio URL Test</title>
+  <title>Transient Study Media Library</title>
   <style>
-    body { max-width: 680px; margin: 48px auto; padding: 0 20px; font: 16px/1.5 system-ui, sans-serif; color: #222; }
-    h1 { font-size: 1.4rem; }
-    .clip { margin: 28px 0; }
-    audio { display: block; width: 100%; max-width: 360px; margin-top: 8px; }
+    body { max-width: 760px; margin: 48px auto; padding: 0 20px; font: 16px/1.55 system-ui, sans-serif; color: #222; }
+    h1 { font-size: 1.6rem; }
+    li { margin: 8px 0; }
+    code { overflow-wrap: anywhere; }
   </style>
 </head>
 <body>
-  <h1>Transient Study — Short Audio URL Test</h1>
-  <p>Disposable playback check for the matched piano C4 clips. Both files are mono, 44.1 kHz; only clip duration differs.</p>
-  <section class="clip">
-    <strong>Clip 1 — 25 ms (piano C4, SN)</strong>
-    <audio controls preload="metadata"><source src="audio/piano-C4-SN-25ms.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  </section>
-  <section class="clip">
-    <strong>Clip 2 — 50 ms (piano C4, SN)</strong>
-    <audio controls preload="metadata"><source src="audio/piano-C4-SN-50ms.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  </section>
+  <h1>Transient Study Media Library</h1>
+  <p>Public static media used by the instrument-identification survey.</p>
+  <ul>
+    <li>42 original 250 ms training clips</li>
+    <li>168 experimental clips across four signal/duration conditions</li>
+    <li>6 instrument images</li>
+  </ul>
+  <p><a href="media_links.csv">Download the complete media URL manifest (CSV)</a></p>
+  <p><a href="test/">Open the archived 25 ms / 50 ms Qualtrics playback test</a></p>
+  <p>Audio paths are grouped under <code>audio/training/</code> and <code>audio/experimental/</code>; images are under <code>images/</code>.</p>
 </body>
 </html>
